@@ -42,3 +42,9 @@ gem 'twitter-bootswatch-rails', '~> 3.0.0'
 
 # twitter bootstrap helpers gem, e.g., alerts etc...
 gem 'twitter-bootswatch-rails-helpers'
+
+
+gem 'activeadmin',         github: 'gregbell/active_admin'
+gem 'ransack',             github: 'ernie/ransack'
+gem 'inherited_resources', github: 'josevalim/inherited_resources'
+gem 'formtastic',          github: 'justinfrench/formtastic'

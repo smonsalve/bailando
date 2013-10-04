@@ -1,5 +1,7 @@
 Bailando::Application.routes.draw do
 
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   resources :pages, except: :show
   get ':id', to: 'pages#show', as: :page
   root to: 'home#index'
